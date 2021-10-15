@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        components: web
+        component: web
     spec:
       containers:
         - name: client
-          image: stephengrider/multi-client
+          image: stephengrider/multi-client:latest
           ports:
             - containerPort: 3000
